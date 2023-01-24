@@ -2027,12 +2027,33 @@ progress {
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
+@media (max-width: 575.98px) {
+  .justice-image{
+    background-size: cover;
+    background-position-x: right;
+  }
+  input{
+    width: 60%;
+   
+}
+}
+@media (max-width: 991.98px) {
+  .justice-image{
+    background-size: cover;
+    background-position-x: right;
+  }
+}
+@media (max-width: 1199.98px) {
+  .justice-image{
+    background-size: cover;
+    background-position-x: right;
+  }
+}
 
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
