@@ -5,3 +5,11 @@
 nav a{
     text-decoration: none;
 }
+.background-image{
+    background-image: url(./images/banner.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
